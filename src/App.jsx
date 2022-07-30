@@ -1,4 +1,6 @@
 import { useEffect, useState } from "react"
+import Background from "../public/Sky_Moon 1.png"
+
 import "./App.css"
 
 export default function App() {
@@ -23,7 +25,7 @@ export default function App() {
 
   return (
     <div className="App">
-      <div className="hero">
+      <div style={{backgroundImage: Background }} className="hero">
         <img style={parallax.nazuna} className="nazuna" src="./Nazuna 1.png"/>
         <img style={parallax.logo} className="logo" src="./Logo_White 1.png"/>
         <img style={parallax.star} className="star" src="./Shooting_Star.png"/>
