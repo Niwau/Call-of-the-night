@@ -19,7 +19,7 @@ html::-webkit-scrollbar {
 }
 
 .hero {
-    background-image: url("../public/Sky_Moon\ 1.png");
+    background-image: url("./assets/Sky_Moon.png");
     background-size: cover;
     box-shadow: inset 0px -20px 25px 5px #013976;
     height: 100vh;
